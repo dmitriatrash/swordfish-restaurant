@@ -1,40 +1,136 @@
 {"menu": {
     "items": [
         {
-            "name":"coke",
-            "qty": 20,
-            "category":"drinks",
-            "sizes":["small","large"]
+            "name":"Fountain Drinks",
+            "price": 4,
+            "category":"Drinks",
+            "description":"Your choice of coca cola beverages"
         },
         {
-            "name":"pepsi",
-            "qty": 20,
-            "category":"drinks",
-            "sizes":["small","large"]
+            "name":"Draft Beer",
+            "price": 6,
+            "category":"Drinks",
+            "description":"Cold been on tap"
         },
         {
-            "name":"water",
-            "qty": 20,
-            "category":"drinks",
-            "sizes":["small","large"]
+            "name":"Wine",
+            "price": 7,
+            "category":"Drinks",
+            "description":"An amazing selection for you to choose from"
+        },
+        {
+            "name":"Taku River Salmon",
+            "price": 30,
+            "category":"Surf",
+            "description":"Bulgur wheat, cherries, pistachios, baby shiitakes"
+        },
+        {
+            "name":"Alaskan Halibut",
+            "price": 33,
+            "category":"Surf",
+            "description":"Grilled mushrooms, black garlic vinaigrette"
+        },
+        {
+            "name":"Grilled Swordfish",
+            "price": 31,
+            "category":"Surf",
+            "description":"Lemon, mint, basil, garlic aioli"
+        },
+        {
+            "name":"Shishito Dusted Scallops",
+            "price": 37,
+            "category":"Surf",
+            "description":"Shrimp & pork merguez, braised lentils, green harissa"
+        },
+        {
+            "name":"Charred Royal Red Shrimp",
+            "price": 26,
+            "category":"Surf",
+            "description":"Spiced curly sweet potatoes, romesco, castelvetrano olives"
+        },
+        {
+            "name":"Pacific Octopus Salad",
+            "price": 13,
+            "category":"Salads",
+            "description":"Cucumbers, sweet pickled green tomatoes, horseradish pesto"
+        },
+        {
+            "name":"Smoked Oyster Salad",
+            "price": 15,
+            "category":"Salads",
+            "description":"pickled clementines, fresnos, roasted garlic aioli"
+        },
+        {
+            "name":"The Wedge",
+            "price": 10,
+            "category":"Salads",
+            "description":"Grape tomatoes, bleu cheese, bacon, chives, ranch"
+        },
+        {
+            "name":"Grilled Filet Mignon",
+            "price": 38,
+            "category":"Turf",
+            "description":"Spring vegetables, asparagus vichysoisse"
+        },
+        {
+            "name":"Swordfish 1/2 LB Beef Burger",
+            "price": 14,
+            "category":"Turf",
+            "description":"Swordfish mustard sauce, kennebec fries"
         },
         {
             "name":"hamburger",
-            "qty": 40,
-            "category":"junk food",
-            "sizes":["small","large"]
+            "price": 40,
+            "category":"Surf",
+            "description":"your choice of coca cola beverages"
         },
         {
-            "name":"fries",
-            "qty": 20,
-            "category":"junk food",
-            "sizes":["small","large"]
+            "name":"hamburger",
+            "price": 40,
+            "category":"Surf",
+            "description":"your choice of coca cola beverages"
         },
         {
-            "name":"pizza",
-            "qty": 20,
-            "category":"junk food",
-            "sizes":["small","large"]
+            "name":"Calamari",
+            "price": 11,
+            "category":"Starters",
+            "description":"Mango-chile mojo, lime aioli"
+        },
+        {
+            "name":"Raw Oysters",
+            "price": "Market Price",
+            "category":"Starters",
+            "description":"On the half shell"
+        },
+        {
+            "name":"Jumbo Lump Crab Cake",
+            "price": 18,
+            "category":"Starters",
+            "description":"Preserved lemon aioli"
+        },
+        {
+            "name":"Cast Iron Oysters Rockefeller",
+            "price": 15,
+            "category":"Starters",
+            "description":"Fried oysters, bacon lardons, grana padano, spinach"
+        },
+        {
+            "name":"Fruit de Mer",
+            "price": 12,
+            "category":"Starters",
+            "description":"Shrimp, calamari, octopus, mussels, basil, lemon"
+        },
+        {
+            "name":"Key Lime Pie",
+            "price": 8,
+            "category":"Dessert",
+            "description":"Fresh cream, caramel, key lime sherbet"
+        },
+        {
+            "name":"Chocolate Mousse Cate",
+            "price": 10,
+            "category":"Dessert",
+            "description":"Flourless chocolate cake, dark chocolate mousse, meringue"
         }
     ]
 }}

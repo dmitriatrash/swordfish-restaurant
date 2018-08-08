@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWORDFISH // Contact - We Would Love To Hear From You</title>
+    <meta name="Description" content="Swordfish is a unique dining experience located in Denver, Colorado. Dive into the depths of the ocean with us and enjoy the freshest seafood from around the world and locally sourced ingredients that will leave you breathless. Step into the tide.">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <!-- Scripts -->
+    <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+</head>
+
+<body>
+<h1 class="text-center text-white d-none d-lg-block site-heading"><span class="text-primary site-heading-upper mb-3">A CULINARY JOURNEY</span><span class="site-heading-lower">SWORDFISH</span></h1>
+<img src="assets/img/logo-w.png" class="rounded mx-auto d-block img-fluid" alt="Swordfish Logo">
+    <nav class="navbar navbar-light navbar-expand-lg sticky-top bg-dark py-lg-4" id="mainNav">
+        <div class="container"><a class="navbar-brand text-uppercase d-lg-none text-expanded" href="#">Swordfish</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="nav navbar-nav mx-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="menu.html">Menu</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                </ul>
+        </div>
+        </div>
+    </nav>
+
+    <div class="container contact-clean">
+        <p id="display" class="display"></p>
+    <form id="contact">
+        <div><h2>We'd love to hear from you...</h2></div>
+        <div class="requiredHead"><i class="fas fa-exclamation-circle"></i>  Required Fields</div>
+        <div class="form-group">
+            <label class="col-xs-3 control-label">First Name <i class="fas fa-exclamation-circle required"></i></label>
+            <input name="firstName" type="text" class="form-control" id="firstName" placeholder="First Name" autocomplete="given-name" required>
+        </div>
+        <div class="form-group">
+            <label class="col-xs-3 control-label">Last Name <i class="fas fa-exclamation-circle required"></i></label>
+            <input name="lastName" type="text" class="form-control" id="lastName" placeholder="Last Name" autocomplete="family-name" required>
+        </div>
+        <div class="form-group">
+            <label class="col-xs-3 control-label">Email Address <i class="fas fa-exclamation-circle required"></i></label>
+            <input name="emailAddress" type="email" class="form-control" id="emailAddress" placeholder="yourname@email.com" autocomplete="email" required>
+        </div>
+        <div class="form-group">
+            <label for="phoneNumber">Phone Number <i class="fas fa-exclamation-circle required"></i></label>
+            <input type="tel" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="555 867 5309" autocomplete="tel" required>
+        </div>
+        <div class="form-group">
+            <span>Message</span>
+            <label class="col-xs-3 control-label" id="message"></label>
+            <div class="col-xs-3">
+                <textarea class="form-control" name="message" id="message-input" placeholder="What's on your mind?"></textarea>
+            </div>
+        </div>
+        <div class="container buttons">
+            <div class="form-row text-center">
+                <div class="col-12">
+                    <span>
+                        <button type="submit" class="btn btn-primary" id="submit" name="submit"><i class="fas fa-paper-plane"></i> Send Message</button>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </form>
+    </div>
+
+    <!-- Refresh Button -->
+    <div class="form-row text-center">
+        <div class="col-12">
+            <button type="button" class="btn btn-secondary resetButton" id="refresh"><i class="fas fa-angle-double-left"></i> Go Back</button>
+        </div>
+    </div>
+    <!--
+    <div class="contact-clean" style="background-color:rgba(241,247,252,0);">
+        <form method="post">
+            <h2 class="text-center">We would love to hear from you</h2>
+            <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Name"></div>
+            <div class="form-group"><input class="form-control is-invalid" type="email" name="email" placeholder="Email"><small class="form-text text-danger">Please enter a correct email address.</small></div>
+            <div class="form-group"><textarea class="form-control" rows="14" name="message" placeholder="Message"></textarea></div>
+            <div class="form-group"><button class="btn btn-primary" type="submit">send </button></div>
+        </form>
+    </div>
+    -->
+
+<footer class="footer text-faded text-center py-5">
+    <div class="container">
+        <div class="social-icons"><a href="#"><i class="fab fa-instagram socIcons"></i></a><a href="#"><i class="fab fa-facebook socIcons"></i></a><a href="#"><i class="fab fa-snapchat socIcons"></i></a><a href="#"><i class="fab fa-twitter-square socIcons"></i></a></div>
+        <p class="m-0 small copyright">Copyright&nbsp;©&nbsp;Swordfish 2018 // Designed by Dmitri Atrash // University of Denver ICT4510 Final Project</p>
+    </div>
+</footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/bs-animation.js"></script>
+    <script src="assets/js/current-day.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+    <script src="assets/js/contactform.js"></script>
+</body>
+
+</html>

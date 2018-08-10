@@ -32,5 +32,5 @@ function displayMenu() {
 getMenuData();
 
 //Display chart when button is clicked
-displayMenu(this);
+displayMenu();
 

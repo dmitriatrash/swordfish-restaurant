@@ -14,27 +14,17 @@ function getMenuData () {
     });
 }
 
-function displayMenu () {
-    var data = window.localStorage.getItem('menuData'); //Retrieve Data
-    var tr;
-    for (var i = 0; i < data.length; i++) {
-        tr = $('<tr/>');
-        tr.append("<td>" + data[i].Name + "</td>");
-        tr.append("<td>" + data[i].Price + "</td>");
-        tr.append("<td>" + data[i].Category + "</td>");
-        tr.append("<td>" + data[i].Description + "</td>");
-        $('#foodMenu').append(tr);
-}
-
 //Retrieve data
-    getMenuData();
+getMenuData();
+
 //Display chart when button is clicked
 $(document).ready(function() {
     $('#displayButton').click(function () {
-       displayMenu();
-        });
-    })}
-
+        let data = window.localStorage.getItem('menuData'); //Retrieve Data
+        document.getElementById('foodMenu').innerHTML += data;
+        $('#displayButton').hide();
+    });
+});
 
 
 

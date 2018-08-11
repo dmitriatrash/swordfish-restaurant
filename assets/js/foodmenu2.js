@@ -14,7 +14,6 @@ function getMenuData () {
     });
 }
 
-
 //Retrieve data
 getMenuData();
 

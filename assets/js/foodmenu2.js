@@ -20,8 +20,9 @@ getMenuData();
 //Display chart when button is clicked
 $(document).ready(function() {
     $('#displayButton').click(function () {
-        let data = JSON.parse(window.localStorage.getItem('menuData')); //Retrieve Data
+        let data = window.localStorage.getItem('menuData'); //Retrieve Data
             document.getElementById('foodMenu').innerHTML += data;
+            $('#displayButton').hide();
         });
     });
 

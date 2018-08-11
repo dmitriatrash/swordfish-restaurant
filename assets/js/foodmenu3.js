@@ -16,14 +16,40 @@ function getMenuData () {
 
 //Retrieve data
 getMenuData();
-
+let data = JSON.parse(window.localStorage.getItem('menuData'));
 //Display chart when button is clicked
 $(document).ready(function() {
     $('#displayButton').click(function () {
-        let data = window.localStorage.getItem('menuData'); //Retrieve Data
-        document.getElementById('foodMenu').innerHTML += data;
-        $('#displayButton').hide();
+ //Retrieve Data
+        $('#foodMenu').createTable(data, {
+            // General Style for Table
+            borderWidth: '1px',
+            borderStyle: 'solid',
+            borderColor: '#DDDDDD',
+            fontFamily: 'Verdana, Helvetica, Arial, FreeSans, sans-serif',
+
+            // Table Header Style
+            thBg: '#F3F3F3',
+            thColor: '#0E0E0E',
+            thHeight: '30px',
+            thFontFamily: '"Open Sans Condensed", sans-serif',
+            thFontSize: '14px',
+            thTextTransform: 'capitalize',
+
+            // Table Body/Row Style
+            trBg: '#fff',
+            trColor: '#0E0E0E',
+            trHeight: '25px',
+            trFontFamily: '"Open Sans", sans-serif',
+            trFontSize: '13px',
+
+            // Table Body's Column Style
+            tdPaddingLeft: '10px',
+            tdPaddingRight: '10px'
+        });
+        $('#foodMenu').createTable(data, {});
     });
+
 });
 
 

@@ -1,5 +1,4 @@
-{"menu": {
-    "items": [
+{"menu": [
         {
             "name":"Calamari",
             "price": 11,
@@ -133,4 +132,4 @@
             "description":"An amazing selection for you to choose from"
         }
     ]
-}}
+}

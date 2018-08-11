@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e586a9d-e982-4e33-8415-5a5f5fbbb3f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/cors.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/photoGallery2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/photoGallery3.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/assets/js/foodmenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/foodmenu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/menu.html" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
+>>>>>>> Fix photo gallery, add styling
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -131,8 +139,50 @@
         <counts>
           <entry key="HTML" value="1" />
           <entry key="JSON" value="2" />
+<<<<<<< HEAD
           <entry key="JavaScript" value="2" />
           <entry key="Scratch" value="1" />
+=======
+          <entry key="JavaScript" value="6" />
+          <entry key="Scratch" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="403213873">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="116" />
+          <entry key="html" value="56" />
+          <entry key="js" value="240" />
+          <entry key="txt" value="26" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="116" />
+          <entry key="HTML" value="56" />
+          <entry key="JavaScript" value="240" />
+          <entry key="PLAIN_TEXT" value="26" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="js" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JavaScript" value="4" />
+>>>>>>> Fix photo gallery, add styling
         </counts>
       </usages-collector>
     </session>
@@ -142,6 +192,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/menu.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="1311">
               <caret line="57" column="34" lean-forward="true" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
             </state>
@@ -156,10 +207,15 @@
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+=======
+            <state relative-caret-position="745">
+              <caret line="83" column="50" selection-start-line="83" selection-start-column="50" selection-end-line="83" selection-end-column="50" />
+>>>>>>> Fix photo gallery, add styling
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/photoGallery.js">
           <provider selected="true" editor-type-id="text-editor" />
@@ -179,6 +235,22 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2139">
               <caret line="93" column="31" selection-start-line="93" selection-start-column="31" selection-end-line="93" selection-end-column="31" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gallery.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/photoGallery3.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+>>>>>>> Fix photo gallery, add styling
             </state>
           </provider>
         </entry>
@@ -186,8 +258,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="598">
+              <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -220,12 +292,27 @@
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/about.html" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/assets/css/main.css" />
         <option value="$PROJECT_DIR$/gallery.html" />
         <option value="$PROJECT_DIR$/assets/js/photoGallery.js" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.js" />
         <option value="$PROJECT_DIR$/menu.html" />
         <option value="$PROJECT_DIR$/assets/js/foodmenu.js" />
+=======
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.js" />
+        <option value="$PROJECT_DIR$/assets/js/foodmenu.js" />
+        <option value="$PROJECT_DIR$/assets/menu.json" />
+        <option value="$PROJECT_DIR$/assets/js/foodmenu3.js" />
+        <option value="$PROJECT_DIR$/menu.html" />
+        <option value="$PROJECT_DIR$/assets/js/foodmenu2.js" />
+        <option value="$PROJECT_DIR$/assets/js/photoGallery.js" />
+        <option value="$PROJECT_DIR$/assets/cors.php" />
+        <option value="$PROJECT_DIR$/assets/js/photoGallery2.js" />
+        <option value="$PROJECT_DIR$/gallery.html" />
+        <option value="$PROJECT_DIR$/assets/js/photoGallery3.js" />
+        <option value="$PROJECT_DIR$/assets/css/main.css" />
+>>>>>>> Fix photo gallery, add styling
       </list>
     </option>
   </component>
@@ -247,8 +334,13 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
     <option name="x" value="-12" />
     <option name="y" value="-12" />
+=======
+    <option name="x" value="4644" />
+    <option name="y" value="-18" />
+>>>>>>> Fix photo gallery, add styling
     <option name="width" value="2904" />
     <option name="height" value="1584" />
   </component>
@@ -301,6 +393,15 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Github\FinalProject\assets\js" />
+      <recent name="D:\CloudStation\Github\FinalProject\assets\js" />
+    </key>
+  </component>
+>>>>>>> Fix photo gallery, add styling
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -313,8 +414,13 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Node.js.foodmenu.js">
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Swordfish/index.html">
+=======
+  <component name="RunManager" selected="Node.js.photoGallery2.js">
+    <configuration name="menu.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FinalProject/menu.html">
+>>>>>>> Fix photo gallery, add styling
       <method v="2" />
     </configuration>
     <configuration name="contactform.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="contactform.js" working-dir="$PROJECT_DIR$/assets/js">
@@ -323,10 +429,11 @@
     <configuration name="foodmenu.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="foodmenu.js" working-dir="$PROJECT_DIR$/assets/js">
       <method v="2" />
     </configuration>
-    <configuration name="gmap.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="gmap.js" working-dir="$PROJECT_DIR$/assets/js">
+    <configuration name="photoGallery2.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="photoGallery2.js" working-dir="$PROJECT_DIR$/assets/js">
       <method v="2" />
     </configuration>
     <list>
+<<<<<<< HEAD
       <item itemvalue="Node.js.contactform.js" />
       <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="Node.js.gmap.js" />
@@ -338,6 +445,21 @@
         <item itemvalue="Node.js.gmap.js" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Node.js.contactform.js" />
+=======
+      <item itemvalue="Node.js.foodmenu.js" />
+      <item itemvalue="Node.js.foodmenu2.js" />
+      <item itemvalue="JavaScript Debug.menu.html" />
+      <item itemvalue="Node.js.foodmenu3.js" />
+      <item itemvalue="Node.js.photoGallery2.js" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.photoGallery2.js" />
+        <item itemvalue="Node.js.foodmenu3.js" />
+        <item itemvalue="Node.js.foodmenu2.js" />
+        <item itemvalue="JavaScript Debug.menu.html" />
+        <item itemvalue="Node.js.foodmenu.js" />
+>>>>>>> Fix photo gallery, add styling
       </list>
     </recent_temporary>
   </component>
@@ -361,6 +483,14 @@
       <workItem from="1533770791637" duration="10972000" />
       <workItem from="1533831704545" duration="3876000" />
       <workItem from="1533904907520" duration="1212000" />
+<<<<<<< HEAD
+=======
+      <workItem from="1533918135587" duration="7526000" />
+      <workItem from="1534010500585" duration="210000" />
+      <workItem from="1534012853442" duration="2746000" />
+      <workItem from="1534015658426" duration="970000" />
+      <workItem from="1534016641216" duration="2195000" />
+>>>>>>> Fix photo gallery, add styling
     </task>
     <task id="LOCAL-00001" summary="Clean up and organize: main.css">
       <created>1533733255371</created>
@@ -376,32 +506,83 @@
       <option name="project" value="LOCAL" />
       <updated>1533782889343</updated>
     </task>
+<<<<<<< HEAD
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="39476000" />
+=======
+    <task id="LOCAL-00003" summary="Update Files">
+      <created>1534010591278</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1534010591278</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update Files">
+      <created>1534010642170</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1534010642170</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update Files">
+      <created>1534010681310</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1534010681310</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add photoGallery.js">
+      <created>1534013479536</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1534013479536</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="53123000" />
+>>>>>>> Fix photo gallery, add styling
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1935" height="1055" extended-state="6" />
     <layout>
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13789473" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13716988" />
+>>>>>>> Fix photo gallery, add styling
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.0" />
       <window_info anchor="bottom" id="Run" order="2" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Debug" order="3" weight="0.0" />
+=======
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49980292" weight="0.3291634" />
+>>>>>>> Fix photo gallery, add styling
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+=======
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32994527" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5001971" side_tool="true" weight="0.3291634" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+>>>>>>> Fix photo gallery, add styling
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -432,7 +613,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Clean up and organize: main.css" />
     <MESSAGE value="Update Files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Files" />
+    <MESSAGE value="add photoGallery.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="add photoGallery.js" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assets/js/current-day.js">
@@ -513,6 +695,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -530,20 +713,93 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1541">
           <caret line="67" column="10" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
+=======
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.js" />
+    <entry file="file://$PROJECT_DIR$/assets/menu.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/foodmenu3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/foodmenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/cors.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/photoGallery2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+>>>>>>> Fix photo gallery, add styling
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gallery.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="2139">
           <caret line="93" column="31" selection-start-line="93" selection-start-column="31" selection-end-line="93" selection-end-column="31" />
+=======
+        <state relative-caret-position="368">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/gmap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+>>>>>>> Fix photo gallery, add styling
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="299">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
+=======
+        <state relative-caret-position="414">
+          <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="745">
+          <caret line="83" column="50" selection-start-line="83" selection-start-column="50" selection-end-line="83" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/photoGallery3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+>>>>>>> Fix photo gallery, add styling
         </state>
       </provider>
     </entry>
@@ -552,8 +808,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/menu.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1311">
           <caret line="57" column="34" lean-forward="true" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+=======
+        <state relative-caret-position="138">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+>>>>>>> Fix photo gallery, add styling
         </state>
       </provider>
     </entry>

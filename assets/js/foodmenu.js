@@ -8,7 +8,7 @@ retrieves it to display a table showcasing the menu.
 
 //Function to get data and place it in localStorage
 function getMenuData () {
-    let url = 'assets/menu.json';
+    let url = 'http://localhost/scripts/menu.json';
     $.get(url, function (data) {
         window.localStorage.setItem('menuData', JSON.stringify(data));
     });

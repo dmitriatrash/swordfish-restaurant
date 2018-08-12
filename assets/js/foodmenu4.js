@@ -3,7 +3,7 @@ Created by: Dmitri Atrash
 Course Name: ICT-4510, Adv Website Design & Mgmt (Summer 2018)
 Assignment 8
 This script retrieves JSON data using a jQuery Ajax GET request, stores it in the browser's localStorage, and
-retrieves it to display a pie chart using ChartJS.
+retrieves it to display a table showcasing the menu.
  */
 
 //Function to get data and place it in localStorage
@@ -17,11 +17,9 @@ function getMenuData () {
 //Retrieve data
 getMenuData();
 
-//Display chart when button is clicked
+//Display menu when button is clicked
 $(document).ready(function() {
     $('#displayButton').click(function () {
- //Retrieve Data
-        let dinnerMenu = JSON.parse(window.localStorage.getItem('menuData'));
         var defaultData = JSON.parse(window.localStorage.getItem('menuData'));
 
         var dom = {
@@ -66,7 +64,7 @@ $(document).ready(function() {
             json2table(JSON.parse(dom.$data.val()), dom.$table);
         });
 
-        $('#displayButton').fadeOut();
+        $('#displayButton').fadeOut(); // Hide button
     });
 
 });

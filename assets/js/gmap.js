@@ -1,16 +1,17 @@
-// Define location for DU (SWORDFISH)
-var unidenver = {
-    latitude: 39.6766174,
-    longitude: -104.9640852
-};
+/*
+Created by: Dmitri Atrash
+Course Name: ICT-4510, Adv Website Design & Mgmt (Summer 2018)
+Final Assignment
+This script creates and displays a Google Map with custom styling centered. A custom
+marker is displayed at the location using the DU address for the fictional restaurant.
+ */
 
 // Initialize Google Maps
 function initMap() {
-    var swordFish = {lat: 39.6766174, lng: -104.9640852};
     var map = new google.maps.Map(document.getElementById('map-container'), {
         center: {lat: 39.6766174, lng: -104.9640852}, // Default center on DU
         zoom: 15,
-        styles: [
+        styles: [ //Custom Dark Styling
             {
                 "elementType": "geometry",
                 "stylers": [
@@ -198,7 +199,7 @@ function initMap() {
         ]
     });
     var image = 'assets/img/marker.png';
-    var marker = new google.maps.Marker({
+    var marker = new google.maps.Marker({ //Custom Marker
         position: {lat: 39.6766174, lng: -104.9640852},
         map: map,
         icon: image

@@ -1,7 +1,7 @@
 /*
 Created by: Dmitri Atrash
 Course Name: ICT-4510, Adv Website Design & Mgmt (Summer 2018)
-Assignment 4
+Final Assignment
 This script makes use of jQuery, PHP, and the jQuery Validation Plugin to validate the results of the form
 and display a message confirming submission to the server via a JSON response.
  */

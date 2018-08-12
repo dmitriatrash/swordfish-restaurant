@@ -16,11 +16,12 @@ function getMenuData () {
 
 //Retrieve data
 getMenuData();
-let data = JSON.parse(window.localStorage.getItem('menuData'));
+
 //Display chart when button is clicked
 $(document).ready(function() {
     $('#displayButton').click(function () {
  //Retrieve Data
+        let data = JSON.parse(window.localStorage.getItem('menuData'));
         $('#foodMenu').createTable(data, {
             // General Style for Table
             borderWidth: '1px',
@@ -48,6 +49,7 @@ $(document).ready(function() {
             tdPaddingRight: '10px'
         });
         $('#foodMenu').createTable(data, {});
+        $('#displayButton').fadeOut();
     });
 
 });

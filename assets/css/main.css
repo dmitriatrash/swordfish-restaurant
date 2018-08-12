@@ -250,6 +250,10 @@ body {
     background-clip: padding-box;
 }
 
+.card-content{
+    overflow: hidden;
+}
+
 .card .card-image span.card-title {
     color: #fff;
     font-size: 24px;

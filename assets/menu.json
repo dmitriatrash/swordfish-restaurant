@@ -1,4 +1,4 @@
-{"menu": [
+[
         {
             "name":"Calamari",
             "price": 11,
@@ -78,18 +78,6 @@
             "description":"Spiced curly sweet potatoes, romesco, castelvetrano olives"
         },
         {
-            "name":"Grilled Filet Mignon",
-            "price": 38,
-            "category":"Turf",
-            "description":"Spring vegetables, asparagus vichysoisse"
-        },
-        {
-            "name":"Swordfish 1/2 LB Beef Burger",
-            "price": 14,
-            "category":"Turf",
-            "description":"Swordfish mustard sauce, kennebec fries"
-        },
-        {
             "name":"Crab Carbonara",
             "price": 29,
             "category":"Surf",
@@ -100,6 +88,18 @@
             "price": 31,
             "category":"Surf",
             "description":"Asparagus vichysoisse, red pearl onions, sugar snap peas, prosciutto chip"
+        },
+        {
+            "name":"Grilled Filet Mignon",
+            "price": 38,
+            "category":"Turf",
+            "description":"Spring vegetables, asparagus vichysoisse"
+        },
+        {
+            "name":"Swordfish 1/2 LB Beef Burger",
+            "price": 14,
+            "category":"Turf",
+            "description":"Swordfish mustard sauce, kennebec fries"
         },
         {
             "name":"Key Lime Pie",
@@ -117,13 +117,13 @@
             "name":"Fountain Drinks",
             "price": 4,
             "category":"Drinks",
-            "description":"Your choice of coca cola beverages"
+            "description":"Your choice of Coca Cola beverages"
         },
         {
             "name":"Draft Beer",
             "price": 6,
             "category":"Drinks",
-            "description":"Cold been on tap"
+            "description":"Cold beer on tap"
         },
         {
             "name":"Wine",
@@ -132,4 +132,3 @@
             "description":"An amazing selection for you to choose from"
         }
     ]
-}

@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <!-- Styles -->
     <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
     <!-- Scripts -->
@@ -41,6 +40,7 @@
         </div>
     </nav>
 
+    <!-- Contact Form -->
     <div class="container contact-clean">
         <p id="display" class="display"></p>
     <form id="contact">
@@ -63,10 +63,10 @@
             <input type="tel" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="555 867 5309" autocomplete="tel" required>
         </div>
         <div class="form-group">
-            <span>Message</span>
+            <span>Message <i class="fas fa-exclamation-circle required"></i></label></span>
             <label class="col-xs-3 control-label" id="message"></label>
             <div class="col-xs-3">
-                <textarea class="form-control" name="message" id="message-input" placeholder="What's on your mind?"></textarea>
+                <textarea class="form-control" name="message" id="message-input" placeholder="What's on your mind?" required></textarea>
             </div>
         </div>
         <div class="container buttons">
@@ -87,18 +87,8 @@
             <button type="button" class="btn btn-secondary resetButton" id="refresh"><i class="fas fa-angle-double-left"></i> Go Back</button>
         </div>
     </div>
-    <!--
-    <div class="contact-clean" style="background-color:rgba(241,247,252,0);">
-        <form method="post">
-            <h2 class="text-center">We would love to hear from you</h2>
-            <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Name"></div>
-            <div class="form-group"><input class="form-control is-invalid" type="email" name="email" placeholder="Email"><small class="form-text text-danger">Please enter a correct email address.</small></div>
-            <div class="form-group"><textarea class="form-control" rows="14" name="message" placeholder="Message"></textarea></div>
-            <div class="form-group"><button class="btn btn-primary" type="submit">send </button></div>
-        </form>
-    </div>
-    -->
 
+<!--Footer-->
 <footer class="footer text-faded text-center py-5">
     <div class="container">
         <div class="social-icons"><a href="#"><i class="fab fa-instagram socIcons"></i></a><a href="#"><i class="fab fa-facebook socIcons"></i></a><a href="#"><i class="fab fa-snapchat socIcons"></i></a><a href="#"><i class="fab fa-twitter-square socIcons"></i></a></div>
@@ -106,12 +96,11 @@
     </div>
 </footer>
 
+    <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/bs-animation.js"></script>
-    <script src="assets/js/current-day.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
     <script src="assets/js/contactform.js"></script>
 </body>

@@ -1,7 +1,7 @@
 /*
 Created by: Dmitri Atrash
 Course Name: ICT-4510, Adv Website Design & Mgmt (Summer 2018)
-Assignment 8
+Final Assignment
 This script retrieves JSON data using a jQuery Ajax GET request, stores it in the browser's localStorage, and
 retrieves it to display a table showcasing the menu.
  */

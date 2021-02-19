@@ -8,7 +8,7 @@ retrieves it to display a table showcasing the menu.
 
 //Function to get data and place it in localStorage
 function getMenuData () {
-    let url = 'http://localhost/scripts/menu.json';
+    var url = 'https://swordfish-restaurant-f03566.netlify.app/assets/menu.json';
     $.get(url, function (data) {
         window.localStorage.setItem('menuData', JSON.stringify(data));
     });
@@ -48,7 +48,7 @@ $(document).ready(function() {
 
                 cols.map(function(colName) {
                     bodyRows += '<td>' + row[colName] + '</td>';
-                })
+                });
 
                 bodyRows += '</tr>';
             });

@@ -140,7 +140,7 @@ body {
 }
 
 .requiredHead {
-    color: red;
+    color: #ff4f4f;
     text-align: center;
     margin-bottom: 30px;
     font-weight: bold;
@@ -149,7 +149,7 @@ body {
 }
 
 .required {
-    color: red;
+    color: #ff4f4f;
 }
 
 .error {

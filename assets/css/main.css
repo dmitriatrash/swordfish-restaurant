@@ -15,7 +15,6 @@
 
 /* 1.0 Body */
 html {
-    position: relative;
     min-height: 100%;
 }
 
@@ -373,3 +372,18 @@ only screen and (max-width: 440px),
 #foodMenu tr th, #resulttable tr td {
     border: 1px solid #000000;
 }
+
+.backlink{
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+.backlink:hover{
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    transition: .3s ease;
+}
+
+@media only screen and (max-width: 600px) {
+    .intro-button{font-size: 1.2rem;}
+  }
